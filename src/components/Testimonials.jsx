@@ -20,7 +20,8 @@ const Testimonials = () => {
          <Swiper
   modules={[Navigation]}
   spaceBetween={20}
-  slidesPerView={1} 
+  slidesPerView={1}
+  loop={true} 
   navigation={{
     prevEl: ".swiper-prev",
     nextEl: ".swiper-next",
