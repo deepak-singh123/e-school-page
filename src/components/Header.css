@@ -1,0 +1,231 @@
+.hero_section {
+  width: 100%;
+  background-color: #F0FFF0;
+  padding: .5rem 6rem 6rem 12.8rem;
+}
+
+.header {
+  max-width: 90rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+  flex-wrap: wrap;
+}
+.logo{
+    margin-left: 1.7rem;
+}
+
+.logo img {
+  width: 13.2rem;
+  height: auto;
+}
+
+.options {
+    position: relative;
+  display: flex;
+  top:-.8rem;
+  left:-.5rem;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  margin-right:1.5rem;
+  
+}
+
+.options a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.2rem;
+}
+
+.options .sign-in-btn {
+  padding: 0.75rem 1.75rem;
+  border-radius: 2.0625rem;
+  background-color: #21B573;
+  color: #ffffff;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.hero-page {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap:4rem;
+  margin-top: 4rem;
+  margin-left: 1.2rem;
+}
+
+.hero-content {
+  max-width: 29.6rem;
+  display: flex;
+  
+  flex-direction: column;
+  gap: 1.7rem;
+}
+
+.hero-ques {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1.07rem;
+  color: #FD511A;
+  white-space: nowrap;
+}
+
+.hero-line {
+  margin-top: -1rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 4.4rem;
+}
+
+.lorem-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 2.25rem;
+  color: #6C6B6B;
+}
+
+.get-started-btn {
+  width: fit-content;
+  padding: 0.75rem 2.5rem;
+  border-radius: 2.0625rem;
+  background-color: #21B573;
+  border: none;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.hero-image img {
+position: relative;
+  width: 100%;
+  top: -1rem;
+  left: 1rem;
+  max-width: 37rem;
+  height: auto;
+}
+@media (min-width: 769px) and (max-width: 1080px) {
+  .hero_section {
+    padding: 2rem 3rem;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .options {
+    justify-content: center;
+    margin: 0;
+    gap: 1.5rem;
+    left: 0;
+    top: 0;
+  }
+
+  .logo {
+    margin-left: 0;
+  }
+
+  .hero-page {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .hero-content {
+    text-align: center;
+    align-items: center;
+  }
+
+  .hero-line {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+  }
+
+  .lorem-text {
+    font-size: 1rem;
+    line-height: 1.8rem;
+  }
+
+  .hero-image img {
+    left: 0;
+    max-width: 90%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .hero_section {
+    padding: 1.5rem 1rem;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .options {
+    
+    align-items: flex-start;
+    gap: 1rem;
+    margin-right: 0;
+    margin-left: 2.7rem;
+    margin-top: 1rem;
+  }
+  .sign-in-btn{
+    position: relative;
+    top: -0.99rem;
+  }
+
+  .hero-page {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .hero-line {
+    font-size: 2rem;
+    line-height: 2.8rem;
+  }
+
+  .lorem-text {
+    font-size: 0.95rem;
+    line-height: 1.75rem;
+  }
+
+  .hero-content {
+    max-width: 100%;
+  }
+
+  .hero-image img {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 450px){
+.options {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-right: 0;
+    margin-left: 2.7rem;
+    margin-top: 1rem;
+  }
+  .sign-in-btn{
+    position: relative;
+    top: 1rem;
+  }
+}

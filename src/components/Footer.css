@@ -1,0 +1,131 @@
+.footer-section {
+    
+  width: 100%;
+  background-color: #282531;
+  color: #fff;
+  padding: 3rem 6rem 2rem 6rem;
+  font-family: 'Poppins', sans-serif;
+  justify-content: center;
+}
+
+.footer-container {
+  max-width: 90rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+}
+.footer-binder{
+    display: flex;
+    justify-content: space-around;
+    gap: 6rem;
+}
+.footer-text {
+   text-align: justify;
+  font-size: 1.2rem;
+  font-weight: 400;
+  max-width: 24rem;
+  line-height: 2rem;
+  color: #ffffff;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0%;
+
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 6rem;
+}
+
+.footer-course,
+.footer-Terms,
+.footer-Link {
+  min-width: 180px;
+}
+
+.footer-course h2,
+.footer-Terms h2,
+.footer-Link h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.contents a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.contents a:hover {
+  color: #21B573;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright p{
+font-family: 'Poppins';
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0%;
+
+}
+
+@media (max-width: 768px) {
+  .footer-section {
+    padding: 3rem 2rem;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .footer-text {
+    font-size: 1rem;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .footer-section {
+    padding: 2rem 0rem 2rem 1.5rem ;
+  }
+
+  .footer-text {
+    font-size: 0.95rem;
+    line-height: 1.6rem;
+  }
+  .footer-binder{
+    gap:4rem;
+  }
+  .footer-course{
+ min-width: 150px;
+  }
+  .footer-course h2,
+  .footer-Terms h2,
+  .footer-Link h2 {
+    font-size: 1.1rem;
+   
+  }
+
+  .contents a {
+    font-size: 0.95rem;
+  }
+}

@@ -1,0 +1,64 @@
+.features-section {
+  width: 100%;
+  padding: 2rem 2rem; 
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+.features-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  max-width: 90rem;
+  margin: 0 auto;
+}
+
+.feature-card {
+  width: 18rem;
+  height: 18rem;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+  background-color: #F8FFFB;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card img {
+  width: 4.7rem;
+  height: 5rem;
+}
+
+.feature-card:hover {
+  transform: scale(1.05); 
+  box-shadow: 0px 20px 40px 0px #0000001A;
+}
+
+.feature-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  text-align: center;
+}
+
+.feature-data h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #413960;
+}
+
+.feature-data p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #585859;
+}
+
+
